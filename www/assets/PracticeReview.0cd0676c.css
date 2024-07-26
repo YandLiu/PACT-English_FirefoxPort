@@ -1,0 +1,29 @@
+
+.author-card[data-v-0b57b1f7] {
+  width: 100%;
+  max-width: 250px;
+  max-height: 375px;
+  overflow: hidden;
+}
+.recommended-authors-container[data-v-0b57b1f7] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+}
+
+#video-container[data-v-469dc57b] {
+  display: flex;
+}
+#practice-review-video-iframe[data-v-469dc57b] {
+  flex-basis: 50%; /* 子div占据50%宽度 */
+  flex-grow: 1; /* 允许子div自适应宽度 */
+  aspect-ratio: 16 / 10;
+  border: none;
+}
+#pact-video-overlay-container[data-v-469dc57b] {
+  border: none;
+  flex-basis: 50%; /* 子div占据50%宽度 */
+  flex-grow: 1; /* 允许子div自适应宽度 */
+  aspect-ratio: 16 / 10;
+}

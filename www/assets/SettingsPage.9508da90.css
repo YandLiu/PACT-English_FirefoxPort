@@ -1,0 +1,21 @@
+
+.text-divider[data-v-38deaa40] {
+  display: flex;
+  align-items: center;
+  --text-divider-gap: 0.8rem; /* 文字与两侧分割线之间的间隔 */
+  color: silver;
+  font-size: 18px;
+}
+.text-divider[data-v-38deaa40]::before,
+.text-divider[data-v-38deaa40]::after {
+  content: '';
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+}
+.text-divider[data-v-38deaa40]::before {
+  margin-right: var(--text-divider-gap);
+}
+.text-divider[data-v-38deaa40]::after {
+  margin-left: var(--text-divider-gap);
+}

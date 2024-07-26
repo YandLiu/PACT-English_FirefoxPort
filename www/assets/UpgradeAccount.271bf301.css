@@ -1,0 +1,27 @@
+
+.price-amount[data-v-05a07248] {
+  font-size: 36px;
+}
+.price-cycle[data-v-05a07248] {
+  font-size: 16px;
+  vertical-align: super;
+}
+table th[data-v-05a07248]:not(:first-child) {
+  background-color: var(--q-primary);
+  color: white;
+  /* 以下 4 项字体设置，是直接复制的 quasar text-h5 这个 class 的样式 */
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal;
+}
+table th[data-v-05a07248]:first-child {
+  background-color: #f2f2f2;
+}
+table th[data-v-05a07248],
+table td[data-v-05a07248] {
+  border-color: #e7e7e7;
+}
+table td[data-v-05a07248] {
+  font-size: 18px;
+}

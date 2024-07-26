@@ -1,0 +1,30 @@
+
+#video-overlay[data-v-24d6b3d0] {
+  width: 100%;
+  height: 100vh; /* 100vh 代表占据整个所在 iframe 的高度 */
+  background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色 */
+  color: white;
+  font-size: 20px; /* 这里只控制了纯文本大小，输入框内的文本大小在answer-q-input中控制 */
+
+  /* 让内容底部居中对齐*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.answer-q-input[data-v-24d6b3d0] {
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 20px;
+}
+.subtitles-div[data-v-24d6b3d0] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.result-analysis[data-v-24d6b3d0] {
+  max-height: 40%;
+  overflow-y: scroll;
+  border: dotted;
+}
